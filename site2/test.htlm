@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title> Test title </title>
+		<title> Tutorship project </title>
 		<link href="Styles/style.css" rel="stylesheet" type="text/css">
 		<script type="text/javascript">
 			<!--
@@ -15,16 +15,18 @@
 					return true;
 				}
 				function Cookiees() {
-					document.cookie. = encodeURIComponent("test")+'='+encodeURIComponent("Marc");
-					alert ("test"+document.cookie);
+					document.cookie = encodeURIComponent("test")+'='+encodeURIComponent("Marc");
+					alert ("les cookies : "+document.cookie);
 					return true;
 				}
 				function Addition() {
+					let a =0;
+					let b =0;
 					var a = prompt("Entrer la premiere varable");
 					var b = prompt("Entrer la seconde variable :");
-					var c = a+b;
-					alert ("Resultat du calcul :"+c);
+					alert (a+b);
 					return true;
+				}
 			//-->
 		</script>
 	</head>
@@ -104,9 +106,11 @@
 			alert('Hello, Word !');
 		</script>
 		<button class="btn" id="btntest" onclick="PrintTest();">Test</button><br/><br/>
+		<!--
 		<script>
 			console.log('test');
 		</script>
+		//-->
 		<hr/>
 		<p align="center">Calculateur d'IMC, avec utilisation d'un formulaire non securise</p>
 		<hr/>
